@@ -1,0 +1,111 @@
+body{
+    background-color: #80cbc4 ;
+}
+#index-blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-bottom: 1px solid (0,0,0,0.05);
+}
+.index-blog-heading h3{
+    color: rgb(34, 34, 34);
+    font-size: 28px;
+    font-weight: 600;
+}
+.index-blog-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap:wrap ;
+}
+.index-blog-box{
+    width: 300px;
+    background-color:#80cbc4;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.index-blog-img{
+    width: 100%;
+    height: auto;
+}
+.index-blog-img img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+.index-blog-text{
+    display: flex;
+    flex-direction: column;
+}
+.index-blog-text span{
+    color: gray;
+    font-size: 12px;
+}
+.index-blog-text h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: #272727;
+}
+.index-blog-view a{
+    color:black;
+}
+ .index-blog-view a:hover{
+    background: none;
+    text-decoration: underline;
+}
+.index-blog-text p{
+    color: #696868;
+    font-size: 12px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+}
+#index-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid (0,0,0,0.05);
+}
+.index-box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap:wrap ;
+}
+.index-box-section{
+    width: 200px;
+    background-color: #ffffff;
+    border: 1px solid #ececec;
+    margin: 20px;
+}
+.index-box{
+    width: 100%;
+    height: auto;
+}
+.index-box img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+.index-box h1{
+    text-align: center;
+    font-size: 14px;
+}
+.index-box h1 a{
+    color: black;
+}
+.index-box h1 a:hover{
+    background: none;
+    text-decoration: underline;
+}
